@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock..Paper..Scissors</title>
+  </head>
+  <body>
+    <h1>Rock... Paper... Scissors... SHOOT!</h1>
+    <h2>Press your choice to play!</h2>
+    <div class="row">
+      <div class="column">
+        <button type="button" class="rock-button" onclick="play('Rock')"><img alt="rock" src="img/skull-hand.png" /></button>
+      </div>
+      <div class="column">
+        <button type="button" class="paper-button" onclick="play('Paper')"><img alt="paper" src="img/yellow-paper.png" /></button>
+      </div>
+      <div class="column">
+        <button type="button" class="scissors-button" onclick="play('Scissors')"><img alt="scissors" src="img/gold-scissors.png" /></button>
+      </div>
+     </div>
+    <div class="results row">
+      <div class="column">
+        <h3>Computer played: </h3>
+        <p id="compChoice"></p>
+      </div>
+      <div class="column">
+        <h3>You played: </h3>
+        <p id="user"></p>
+      </div>
+      <div class="column">
+        <h3>Game Result: </h3>
+        <p id="gameResult"></p>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
