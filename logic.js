@@ -1,7 +1,6 @@
 var game_result;
 function play(userChoice) {
   var computerChoice = Math.random();
-//  var pick = ;
 
   if (computerChoice < 0.34) {
     computerChoice = "Rock";
