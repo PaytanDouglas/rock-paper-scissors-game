@@ -10,10 +10,13 @@ body {text-align:center; background-image: linear-gradient(red, blue);}
 h3 {padding-top: none;}
 p {padding-top: none;}
 
+.rock {width:100px;}
 .rock-button {cursor:pointer;}
 .rock-button img {width:100px; margin-top: 10px;}
+.paper {width:100px;}
 .paper-button {cursor: pointer;}
 .paper-button img {width:100px;}
+.scissors {width:100px;}
 .scissors-button {cursor: pointer;}
 .scissors-button img {width:100px;}
 
